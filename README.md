@@ -62,30 +62,7 @@ Sidekick is an agentic AI assistant built with **Langgraph**, **LangChain**, and
 
 ---
 
-## 🔑 Configuration
 
-Create a `.env` file in the project root:
-
-```ini
-# OpenAI
-OPENAI_API_KEY=sk-…
-
-# Pushover (optional)
-PUSHOVER_TOKEN=your_pushover_app_token
-PUSHOVER_USER=your_pushover_user_key
-
-# Google Calendar
-GOOGLE_TOKEN_PATH=token.json
-GOOGLE_CALENDAR_ID=primary
-
-# File-Toolkit root (optional)
-FILE_TOOL_ROOT=./sandbox
-
-# Timezone for RFC3339 formatting
-TIMEZONE_OFFSET=+05:30
-```
-
----
 
 ## 🔑 OAuth2 Quickstart (Generate `token.json`)
 
